@@ -253,7 +253,6 @@ stdenv.mkDerivation (finalAttrs: {
     homepage = "https://www.ncbi.nlm.nih.gov/books/NBK179288/";
     license = lib.licenses.publicDomain;
     platforms = builtins.attrNames platformMapping;
-    # maintainers = with lib.maintainers; [ mulatta ];
     mainProgram = "esearch";
   };
 })
